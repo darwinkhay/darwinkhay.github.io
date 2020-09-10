@@ -758,7 +758,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 1.45rem 0rem 1.45rem; /* third arg, the bottom margin was changed from 5rem */
+    margin: 0 1.45rem 10000rem 1.45rem; /* third arg, the bottom margin was changed from 5rem */
 }
 
 .project-img1{
