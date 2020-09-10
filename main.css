@@ -748,8 +748,8 @@ hr{
     text-align: center;
     min-height: 100vh; /*changed from 100vh */
     max-width: 100%;
-    margin: auto;
-    padding-top: 5vh; /* changed from 20vh */
+    /* margin: auto; */
+    padding-top: 20vh; /* changed from 20vh */
     padding-bottom: 40rem; /* changed from 40rem */
     background: rgb(255, 255, 255);
 }
