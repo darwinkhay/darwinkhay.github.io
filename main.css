@@ -750,7 +750,7 @@ hr{
     max-width: 100%;
     margin: auto;
     padding-top: 20vh;
-    padding-bottom: 10rem; /* changed from 40rem */
+    padding-bottom: 2rem; /* changed from 40rem */
     background: rgb(255, 255, 255);
 }
 
@@ -758,7 +758,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 1.45rem 2rem 1.45rem; /* third arg, the bottom margin was changed from 5rem */
+    margin: 0 1.45rem 5rem 1.45rem; /* third arg, the bottom margin was changed from 5rem */
 }
 
 .project-img1{
