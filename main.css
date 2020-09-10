@@ -750,7 +750,7 @@ hr{
     max-width: 100%;
     margin: auto;
     padding-top: 20vh;
-    padding-bottom: 20rem; /* changed from 40rem */
+    padding-bottom: 10rem; /* changed from 40rem */
     background: rgb(255, 255, 255);
 }
 
