@@ -56,7 +56,7 @@ header{
     width: 100%;
     max-width: 100%; /* changed from 90rem */
     margin: 0 auto; /* changed from 0 auto */
-    padding: 0 1.5rem;
+    padding: 0 1.5rem; /* changed from 1.5 rem */
 }
 .container2{
     visibility: hidden;
@@ -817,14 +817,30 @@ iframe {
     padding: 0;
     margin: 0rem 0rem;
     text-align: center;
-    color: rgba(255, 179, 71, 1);
+    color: rgb(90, 90, 90);
 }
 
-.contact .container{
-    min-height: 25vh;
+.intro-btn3{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    padding: 10rem 2.5rem 5rem 2.5rem;
+}
+.intro-btn3 .btn{
+    margin: 0 100px; /* changed from 0 9px */
+    background: rgb(255, 201, 101);
+    border-radius: 2rem;
+    color: black;
+    padding: 1rem 5rem; /* changed from 1rem 2.5rem */
+    display: inline-block; /* changed from inline-block */
+    margin-top: 2rem;
+    transition: background-color 650ms;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.intro-btn3 .btn:hover{
+    color: #fafafa;
+    background-color: rgba(255, 179, 71,1);
 }
 /************************************************* footer *************************************/
 
@@ -878,6 +894,13 @@ footer p{
     .btn{
         border-radius: 0.9rem;
         padding: 0.9rem 0.9rem;
+    }
+    .intro-btn3{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .intro-btn3 .btn{
+        padding: 0.9rem 5rem;
     }
     .main-message{
         max-width: 25rem;
