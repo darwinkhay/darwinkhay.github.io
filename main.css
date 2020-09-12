@@ -1053,6 +1053,13 @@ footer p{
         font-size: 1rem;
         letter-spacing: 2px;
     }
+    .intro-btn3{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .intro-btn3 .btn{
+        padding: 0.9rem 5rem;
+    }
     .about-text-box h2{
         font-size: 1.4rem;
         margin-bottom: 20px;
