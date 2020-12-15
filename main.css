@@ -1022,6 +1022,10 @@ footer p{
     .container2{
         visibility: visible;
     }
+    .about-img img{
+        max-height: 30%;
+        max-width: 30%;
+    }
     .main-message{
         max-width: 25rem;
         top: 55%;
