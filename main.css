@@ -920,8 +920,8 @@ footer p{
         flex-direction: column;
     }
     .about-img img{
-        max-height: 20%;
-        max-width: 20%;
+        max-height: 25%;
+        max-width: 25%;
     }
     .about-text-box h2{
         font-size: 1.4rem;
