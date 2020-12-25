@@ -561,8 +561,8 @@ hr{
 }
 
 .tier-item1 img{
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 10%;
+    max-height: 10%;
     border-radius: 10%;
     vertical-align: middle;
     box-shadow: 0 20px 30px 0 rgba(255, 159, 69, 0);
@@ -726,6 +726,61 @@ hr{
     color: black;
     white-space: pre;
 }
+
+
+
+.tier-item4{
+    max-height: auto;
+    max-width: auto;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20rem;
+}
+
+.tier-item4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    padding-top: 2vh; /* changed from 25vh */
+}
+
+
+.tier-item4 i{
+    font-size: 3rem;
+    width: auto;
+    height: auto;
+    border-radius: 10%;
+    vertical-align: middle;
+    box-shadow: 0 20px 30px 0 rgba(255, 159, 69, 0);
+
+}
+.tier-item4 h2{
+    font-size: 3rem;
+    margin: 1rem 0;
+    background: rgba(255, 179, 71, 1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.tier-item4 p{
+    font-size: 1.8rem;
+    color: black;
+    white-space: pre;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .tier-sub-item4{
