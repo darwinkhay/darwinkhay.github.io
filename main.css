@@ -464,6 +464,12 @@ footer {
     align-items: center;
     
 }
+.dataset-image{
+    max-width: 75%;
+    max-height: 75%;
+    
+
+}
 
 .about-text-box{
     flex-grow: 1;
